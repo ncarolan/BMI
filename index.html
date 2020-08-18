@@ -15,14 +15,16 @@ body{background-color: green; color: white;}
 <h1>Koops BMI Calculator</h1>
 
 Weight (lb): <br>
-<input type="text" id="weight" > <br/>
+<input type="text" type="number" pattern="[0-9]*" id="weight" > <br/>
 
 Height: <br>
-<input type="text" id="feet" > ft <input type="text" id="inches" > in<br/>
+<input type="text" type="number" pattern="[0-9]*" id="feet" > ft <input type="text" type="number" pattern="[0-9]*" id="inches" > in<br/>
 
 <input type="submit" id="submit" value="Calculate BMI"> <br/><br/>
 
-<h3>BMI: <span id="result"></span></h3>
+<h2>BMI: <span id="result"></span></h2>
+
+<hr>
 
 Underweight = Less than 18.6<br/>
 Normal Range = 18.6 - 24.9<br/>
