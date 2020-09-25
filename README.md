@@ -1,6 +1,6 @@
 ## About
 
-My mom is a nurse, and she uses her phone to calculate patient BMIs on the job. She couldn't find the web calculator she liked anymore, so I decided to recreate it with the layout and features she prefers.
+A simple BMI calculator for my mom to use on the job.
 
-### Resources Used:
+### Resources:
 - https://www.codentricks.com/make-bmi-calculator-using-pure-javascript/
